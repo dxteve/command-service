@@ -1,0 +1,120 @@
+# -----------------------------
+# .NET / ASP.NET Core
+# -----------------------------
+bin/
+obj/
+out/
+*.log
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.rsuser
+*.dbmdl
+*.jfm
+project.lock.json
+artifacts/
+
+# Rider / VS Code / Visual Studio
+.vscode/
+.idea/
+*.DotSettings
+*.DotSettings.user
+*.sln.iml
+
+# -----------------------------
+# Build and Publish Outputs
+# -----------------------------
+/publish/
+/dist/
+/build/
+/Release/
+/Debug/
+/app/out/
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+.env
+.env.*
+*.secret.json
+appsettings.Development.json
+secrets.json
+
+# -----------------------------
+# Docker
+# -----------------------------
+# Ignore Docker build artifacts
+*.tar
+*.pid
+*.sock
+docker-compose.override.yml
+Dockerfile.*
+!Dockerfile
+.dockerignore
+
+# -----------------------------
+# SQL Server / Data
+# -----------------------------
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+/data/
+*/mssql/data/
+
+# -----------------------------
+# Logs and Temp Files
+# -----------------------------
+*.log
+logs/
+log/
+temp/
+tmp/
+*.tmp
+*.cache
+*.swp
+*.lock
+nohup.out
+
+# -----------------------------
+# OS-specific Files
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# -----------------------------
+# Node (if front-end present)
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# -----------------------------
+# Certificates (Local Dev)
+# -----------------------------
+*.pfx
+*.pem
+*.crt
+*.key
+
+# -----------------------------
+# Azure / Kubernetes Credentials
+# -----------------------------
+.kube/
+.azure/
+*.kubeconfig
