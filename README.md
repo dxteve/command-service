@@ -28,27 +28,3 @@ It’s fully containerized with **Docker**, orchestrated via **Kubernetes**, and
 | Reverse Proxy | NGINX Ingress Controller |
 | Cloud | Azure Container Instances / Kubernetes Service |
 | Containerization | Docker |
-
----
-
-## 🧩 Project Structure
-
-PlatformService/
-│
-├── Dockerfile
-├── .dockerignore
-├── .gitignore
-├── README.md
-├── kubernetes/
-│ ├── platforms-depl.yaml
-│ ├── mssql-depl.yaml
-│ ├── rabbitmq-depl.yaml
-│ ├── ingress-srv.yaml
-│ └── ...
-├── Controllers/
-│ └── PlatformsController.cs
-├── Protos/
-│ └── platforms.proto
-├── Services/
-│ └── GrpcPlatformService.cs
-└── Program.cs
